@@ -10,9 +10,9 @@
   - `refactor`: Перемещение кода
   - `docs`: Добавление/изменение документации
 `<scope>` - Какой код был изменен, в нашем случае название задачки на англ. В нижнем регистре. (Обязательно, но не всегда)
-`<subject>` - Главный текст коммита, должен начинаться с большой буквы. (На англ, обязательно)
+`<subject>` - Главный текст коммита, не должен начинаться с большой буквы. В настоящем времени (На англ, обязательно)
 `<body>` - Описание коммита (необязательно)
 ## Пример названия коммитов
-  - `feat(footer): added basic boilerplate code`
-  - `fix(description): fixed footer size`
-  - `feat(3 pics): added images`
+  - `feat(footer): add basic boilerplate code`
+  - `fix(description): fix footer size`
+  - `feat(3 pics): add images`
