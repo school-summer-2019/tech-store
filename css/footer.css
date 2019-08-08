@@ -1,0 +1,69 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    border-top: 4px solid black;
+    margin-top: 10px
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .break {
+        flex-basis: 100%;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+}
+
+.footer-left {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.footer-left__facebook {
+    flex: 0 0 auto;
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.footer-left__twitter {
+    flex: 0 1 auto;
+    width: 50px;
+    height: auto;
+    margin-left: 25px;
+}
+
+.footer-right {
+    flex: 0 1 auto;
+    display: flex;
+    width: auto;
+}
+
+.footer-right-email {
+    display: flex;
+    width: auto;
+    margin-right: 30px;
+}
+
+.footer-right-email__icon {
+    flex: 0 0 auto;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-right-skype {
+    display: flex;
+    width: auto;
+    margin-right: 30px;
+}
+
+.footer-right-skype__icon {
+    flex: 0 1 auto;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
