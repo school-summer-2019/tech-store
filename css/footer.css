@@ -6,6 +6,10 @@
     margin-top: 10px
 }
 
+.footer > div {
+    margin-top: 25px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .break {
         flex-basis: 100%;
