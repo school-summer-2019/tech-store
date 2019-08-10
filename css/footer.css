@@ -1,3 +1,4 @@
+/* Главный flex-box футера. TODO: нормальный border */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -6,6 +7,11 @@
     margin-top: 10px
 }
 
+.footer > div {
+    margin-top: 25px;
+}
+
+/* Перенос футера на новую строку при использовании телефона */
 @media (min-width: 320px) and (max-width: 480px) {
     .break {
         flex-basis: 100%;
@@ -15,6 +21,7 @@
     }
 }
 
+/* Левая часть футера (facebook, twitter) */
 .footer-left {
     flex: 0 0 auto;
     display: flex;
@@ -35,7 +42,7 @@
     height: auto;
     margin-left: 25px;
 }
-
+/* Правая часть футера (email, skype) */
 .footer-right {
     flex: 0 1 auto;
     display: flex;
