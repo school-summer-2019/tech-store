@@ -1,0 +1,32 @@
+.contact__form {
+    display: block;
+}
+
+.contact__title {
+    font-size: 70px;
+    display: flex;
+    margin-top: 91px;
+    margin-bottom: 29px;
+    justify-content: center;
+}
+
+.contact__button {
+    background-color: black;
+    width: 300px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+/* * {
+    border: 1px solid red;
+} */
