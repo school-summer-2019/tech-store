@@ -1,6 +1,11 @@
 {
-  "short_name": "",
-  "name": "",
+  "name": "Tech store",
+  "short_name": "Tech store",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
