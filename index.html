@@ -6,26 +6,24 @@
   <title>Tech Store</title>
   <meta name="description" content="Tech Store">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet/less" type="text/css" href="less/footer.less">
   <link rel="stylesheet/less" type="text/css" href="less/contact-form.less">
   <link rel="stylesheet/less" type="text/css" href="less/debug.less">
-
+  <link rel="stylesheet/less" type="text/css" href="less/separate-related.less">
   <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.3/less.min.js"></script>
-
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-    html {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+  html {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  </style>
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -33,41 +31,69 @@
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
   <!-- Add your site or application content here -->
-  
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <header class="header">
   </header>
-  <div class="app">
-    <p>Hello world! This is HTML5 Boilerplate.</p>
-    <div class="contact__form">
-      <p class="contact__title"><strong>Want to work with us?</strong></p>
-      <div class="button__container">
-        <a href="#" class="contact__button"><strong>Get a Free Quote</strong></a>
+  <div class="separate-related-main">
+    <div class="separate-dashboards">
+      <p class="separate-dashboards_title">Separate Dashboards for Partners and Branches</p>
+      <p class="separate-dashboards_text">Although the website is implemented on a single-seller CS-Cart version, the requested functionality included specific dashboards for partners of the Mobile Bitz brand and their stores (aka branches) to tackle payment issues, track performance (sales reports with statistics) and orders. The client may decide to pay directly to the owner or to pay to a local branch. If the owner gets the payment he owes that amount to the branch. If the branch takes the money, he shares the commission with the owner. We designed and implemented the dashboards for partners and branches to manage these payment issues.<br>In addition, we expanded the dashboards with performance tracking like sales reports, order tracking to see jobs to be done and the ability to mention a landing page for repairers. Branch landing pages work better for search engine ranking and attract more traffic to the website. This is good for SEO. As for usability and brand awareness, a separate branch portfolio with photos and extra information makes it easier for a customer to remember the store and find its brick-and-mortar location.</p>
+    </div>
+    <div class="upgrading-cscart">
+      <p class="upgrading-cscart_title">Upgrading CS-Cart</p>
+      <p class="upgrading-cscart_text">Although the website is implemented on a single-seller CS-Cart version, the requested functionality included specific dashboards for partners of the Mobile Bitz brand and their stores (aka branches) to tackle payment issues, track performance (sales reports with statistics) and orders. The client may decide to pay directly to the owner or to pay to a local branch. If the owner gets the payment he owes that amount to the branch. If the branch takes the money, he shares the commission with the owner. We designed and implemented the dashboards for partners and branches to manage these payment issues.<br>In addition, we expanded the dashboards with performance tracking like sales reports, order tracking to see jobs to be done and the ability to mention a landing page for repairers. Branch landing pages work better for search engine ranking and attract more traffic to the website. This is good for SEO. As for usability and brand awareness, a separate branch portfolio with photos and extra information makes it easier for a customer to remember the store and find its brick-and-mortar location.</p>
+    </div>
+    <div class="aws-hosting">
+      <p class="aws-hosting_title">AWS Hosting</p>
+      <p class="aws-hosting_text">We provided the client with our AWS cloud hosting service to ensure the website even faster and safer operation monitored by our DevOps engineers day and night.</p>
+    </div>
+    <div class="result">
+      <p class="result_title">Results</p>
+      <p class="result_text">Gorgeous website running fast and easy; customers happy with awesome user-friendly and intuitive interface; a featured dashboard for partners with invoicing functionality, sales’ and tasks’ tracking features.</p>
+    </div>
+    <div class="related">
+      <p class="related_title">Related</p>
+      <div class="related_images-container">
+        <img class="related__image" src="img/notebook.png" />
+        <img class="related__image" src="img/decoration.png" />
+        <span class="related_text-notebook-top">Navkusicvet.net</span>
+        <span class="related_text-decoration-top">Jewbilation</span>
+        <span class="related_text-notebook-bot">A marketplace for handmade</span>
+        <span class="related_text-decoration-bot">Two-in-one for the </br>Jewish community</span>
       </div>
     </div>
-    <div class="footer">
-      <div class="footer-left">
-        <img class="footer-left__facebook" src="img/facebook.svg" />
-        <img class="footer-left__twitter" src="img/twitter.svg" />
+  </div>
+  <div class="contact__form">
+    <p class="contact__title"><strong>Want to work with us?</strong></p>
+    <div class="button__container">
+      <a href="#" class="contact__button"><strong>Get a Free Quote</strong></a>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-left">
+      <img class="footer-left__facebook" src="img/facebook.svg" />
+      <img class="footer-left__twitter" src="img/twitter.svg" />
+    </div>
+    <div class="break"></div>
+    <div class="footer-right">
+      <div class="footer-right-email">
+        <img class="footer-right-email__icon" src="img/email.svg" />
+        <span>Email support</br>test@example.com</span>
       </div>
-      <div class="break"></div>
-      <div class="footer-right">
-        <div class="footer-right-email">
-          <img class="footer-right-email__icon" src="img/email.svg" />
-          <span>Email support</br>test@example.com</span>
-        </div>
-        <div class="footer-right-skype">
-          <img class="footer-right-skype__icon" src="img/skype.svg" />
-          <span>Skype support</br>Iamsupport</span>
-        </div>
+      <div class="footer-right-skype">
+        <img class="footer-right-skype__icon" src="img/skype.svg" />
+        <span>Skype support</br>Iamsupport</span>
       </div>
     </div>
+  </div>
   </div>
 </body>
 
