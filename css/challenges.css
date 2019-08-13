@@ -1,0 +1,16 @@
+.pictures {
+	display:flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+
+	.picture__conteiner{
+	 margin-left: 20px;
+	}
+	
+	.pictures__picture {
+
+		width: 100px;
+		hight: 100px;
+	}
+}
