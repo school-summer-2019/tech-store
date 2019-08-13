@@ -1,0 +1,52 @@
+.header {
+    background: transparent url('../img/header banner.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: auto;
+    height: 568px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__left {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header__right {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header__logo {
+    background-color: #EE4876;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+.header__links-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__button {
+    padding-right: 10px;
+    color: gray;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header__button--active {
+    color: black;
+}
+
+.header__quote {
+    background-color: #EE4876;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}

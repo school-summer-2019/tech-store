@@ -11,14 +11,12 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet/less" type="text/css" href="less/footer.less">
-  <link rel="stylesheet/less" type="text/css" href="less/contact-form.less">
-  <link rel="stylesheet/less" type="text/css" href="less/debug.less">
   <link rel="stylesheet" href="css/challenges.css">
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.3/less.min.js"></script>
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact-form.css">
 
   <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
@@ -28,6 +26,15 @@
   </style>
 
   <meta name="theme-color" content="#fafafa">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145609483-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145609483-1');
+  </script>
+
 </head>
 
 <body>
@@ -43,6 +50,26 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <header class="header">
+    <div class="header__container">
+      <div class="header__left">
+        <div class="header__logo">LOGO</div>
+        <div class="header__links">
+          <ul class="header__links-list">
+            <a href="#" class="header__button header__button--active"><li>services</li></a>
+            <a href="#" class="header__button"><li>marketplace</li></a>
+            <a href="#" class="header__button"><li>cases</li></a>
+            <a href="#" class="header__button"><li>more</li></a>
+            <a href="#" class="header__button"><li>&#8744;</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="header__right">
+        <div class="header__login">
+          <a href="#" class="header__button header__button--active">login</a>
+        </div>
+        <div class="header__quote">get a free quote</div>
+      </div>
+    </div>
   </header>
   <div class="app">
     <p>Hello world! This is HTML5 Boilerplate.</p>
@@ -74,7 +101,7 @@
         <a href="#" class="contact__button"><strong>Get a Free Quote</strong></a>
       </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
       <div class="footer-left">
         <img class="footer-left__facebook" src="img/facebook.svg" />
         <img class="footer-left__twitter" src="img/twitter.svg" />
@@ -90,7 +117,7 @@
           <span>Skype support</br>Iamsupport</span>
         </div>
       </div>
-    </div>
+    </footer>
   </div>
 </body>
 
