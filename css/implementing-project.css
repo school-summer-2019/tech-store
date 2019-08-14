@@ -1,0 +1,22 @@
+.content-block {
+ 	margin-right: 15%;
+    margin-left: 15%;
+ }
+
+.content-block__content {
+    font-size: 1.125em;
+    line-height: 24px;
+
+}
+
+.content-block__header {
+ 	font-weight: bold;
+    font-size: 2.500em;
+}
+
+.background-image {
+	position: absolute;
+	width: 100%;
+	z-index:-2;
+	margin-top:50px;
+}
