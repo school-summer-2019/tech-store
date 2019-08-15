@@ -1,0 +1,15 @@
+.pictures {
+	display:flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+}
+
+.picture__conteiner{
+	margin-right: 5%;
+}
+   	
+.pictures__picture {
+	width: 129px;
+	height: auto;
+}
