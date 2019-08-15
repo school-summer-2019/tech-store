@@ -3,54 +3,31 @@
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-
 }
 
-.contact__text,
-.separate-dashboards__text,
-.upgrading-cscart__text,
-.aws-hosting__text {
-    font-size: 1.125em;
-    line-height: 24px;
-    margin-right: 15%;
-    margin-left: 15%;
-}
-
-.contact__title,
-.related__title,
-.separate-dashboards__title,
-.upgrading-cscart__title,
-.aws-hosting__title {
+.content-block__title {
     font-weight: bold;
     font-size: 1.125em;
     line-height: 20px;
-    margin-right: 15%;
-    margin-left: 15%;
 }
 
-.result__title {
+.content-block__title-result {
     font-weight: bold;
-    font-size: 2.500em;
+    font-size: 2.5em;
     line-height: 20px;
-    margin-right: 15%;
-    margin-left: 15%;
 }
 
-.result__text {
+.content-block__content-result {
     font-weight: bold;
     font-size: 1.625em;
     line-height: 32px;
-    margin-right: 15%;
-    margin-left: 15%;
 }
 
-.related__title {
+.content-block__title-related {
     position: relative;
     font-weight: bold;
-    font-size: 2.500em;
+    font-size: 2.5em;
     line-height: 20px;
-    margin-right: 15%;
-    margin-left: 15%;
 }
 
 .related__images-container {
@@ -68,7 +45,7 @@
     position: absolute;
     margin-top: 2.5%;
     margin-left: 5%;
-    font-size: 1.000em;
+    font-size: 1em;
     line-height: 30px;
     margin-right: 15%;
     margin-left: 12%;
@@ -78,7 +55,7 @@
     position: absolute;
     margin-top: 2.5%;
     margin-left: 55%;
-    font-size: 1.250em;
+    font-size: 1.25em;
     line-height: 30px;
 }
 
@@ -86,7 +63,7 @@
     position: absolute;
     margin-top: 5%;
     margin-left: 12%;
-    font-size: 1.500em;
+    font-size: 1.5em;
     line-height: 24px;
 }
 
@@ -94,7 +71,7 @@
     position: absolute;
     margin-top: 5%;
     margin-left: 55%;
-    font-size: 1.500em;
+    font-size: 1.5em;
     line-height: 24px;
 }
 
@@ -113,10 +90,9 @@
     flex-direction: row;
 }
 
-
 @media screen and (max-width: 768px) {
-.related__text-decoration-bot , .related__text-notebook-bot {
-        display:none;
-  
-}
+  .related__text-decoration-bot,
+  .related__text-notebook-bot {
+    display: none;
+  }
 }
