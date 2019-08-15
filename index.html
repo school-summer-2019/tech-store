@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -6,42 +6,107 @@
   <title>Tech Store</title>
   <meta name="description" content="Tech Store">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet/less" type="text/css" href="less/footer.less">
-  <link rel="stylesheet/less" type="text/css" href="less/contact-form.less">
-  <link rel="stylesheet/less" type="text/css" href="less/debug.less">
-  <link rel="stylesheet/less" type="text/css" href="less/debug.less">
-  <link rel="stylesheet/less" type="text/css" href="less/separate-related.less">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.3/less.min.js"></script>
+  <link rel="stylesheet" href="css/separate-related.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact-form.css">
+
+  <link rel="stylesheet" href="css/implementing-project.css">
+
   <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
     html {
       font-family: 'Roboto', sans-serif;
     }
   </style>
+
   <meta name="theme-color" content="#fafafa">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145609483-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145609483-1');
+  </script>
+
 </head>
 
 <body>
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
+
   <!-- Add your site or application content here -->
+  
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
-  </script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <header class="header">
+    <div class="header__container">
+      <div class="header__left">
+        <div class="header__logo">LOGO</div>
+        <div class="header__links">
+          <ul class="header__links-list">
+            <a href="#" class="header__button header__button--active"><li>services</li></a>
+            <a href="#" class="header__button"><li>marketplace</li></a>
+            <a href="#" class="header__button"><li>cases</li></a>
+            <a href="#" class="header__button"><li>more</li></a>
+            <a href="#" class="header__button"><li>&#8744;</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="header__right">
+        <div class="header__login">
+          <a href="#" class="header__button header__button--active">login</a>
+        </div>
+        <div class="header__quote">get a free quote</div>
+      </div>
+    </div>
   </header>
-  <div class="separate-related-main">
+
+  <div class=implementing-container>
+    <p class="content-block content-block__header">
+        Implementing the Project
+    </p>
+    <img class="background-image" src="img/implementing-project/background.svg" />
+    <p class="content-block content-block__content">
+      A nice feature proposed by the website Product Manager was a ‘Book a Repair’ button. The idea behind this element was to provide a visitor with a simple tool to guide through the purchase funnel. We developed, designed and integrated Book a Repair placed on the homepage next to the Company logo and the further back- and front-end functionality triggered by that key. The button initiates the following steps:
+    </p>
+    <p class="content-block content-block__content">
+      1. Select Repair: you select the repair type for a chosen device and its make.
+    </p>
+    <img class="content-block" src="img/implementing-project/select-repair.png" />
+    <p class="content-block content-block__content">
+      2. Select Service: you specify what the service exactly is, data restoring, phone configuration or something else.
+    </p>
+    <p class="content-block content-block__content">
+      2.1. Visit Us in Store: a personal visit to the store. After enabling this widget you proceed to Store locator. A user can see the stores on the map and all the details after hovering on a selected branch. We embedded a functionality allowing the user to find a branch by entering a postcode.
+    </p>
+    <img class="content-block" src="img/implementing-project/visit-store.png" />
+    <p class="content-block content-block__content">
+      2.2. Post Your Device with the Self-Post and Collection options to send the device for repair via post or get it collected by courier.
+    </p>
+    <img class="content-block" src="img/implementing-project/post-device.png" />
+    <p class="content-block content-block__content">
+      2.3. Call-in Technician: call a specialist to tackle the issue at the customer place.
+    </p>
+    <img class="content-block" src="img/implementing-project/call-in-tech.png" />
+    <p class="content-block content-block__content">
+      3. Confirm appointment. We elaborated all the internal filling and logic including the icons’ design and coded every step from scratch.
+    </p>
+  </div>
+<div class="separate-related-main">
     <div class="separate-dashboards">
       <p class="separate-dashboards__title">Separate Dashboards for Partners and Branches</p>
       <p class="separate-dashboards__text">Although the website is implemented on a single-seller CS-Cart version, the requested functionality included specific dashboards for partners of the Mobile Bitz brand and their stores (aka branches) to tackle payment issues, track performance (sales
@@ -78,13 +143,17 @@
       </div>
     </div>
   </div>
+
+
+
   <div class="contact__form">
     <p class="contact__title"><strong>Want to work with us?</strong></p>
     <div class="button__container">
       <a href="#" class="contact__button"><strong>Get a Free Quote</strong></a>
     </div>
   </div>
-  <div class="footer">
+  
+  <footer class="footer">
     <div class="footer-left">
       <img class="footer-left__facebook" src="img/facebook.svg" />
       <img class="footer-left__twitter" src="img/twitter.svg" />
@@ -100,8 +169,7 @@
         <span>Skype support</br>Iamsupport</span>
       </div>
     </div>
-  </div>
-  </div>
+  </footer>
 </body>
 
 </html>
