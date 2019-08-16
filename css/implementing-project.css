@@ -1,12 +1,16 @@
 .content-block {
  	margin-right: 15%;
     margin-left: 15%;
- }
+}
+
+ .content-block__image {
+    max-width: 70%;
+    height: auto;
+}
 
 .content-block__content {
     font-size: 1.125em;
     line-height: 24px;
-
 }
 
 .content-block__header {
