@@ -1,8 +1,6 @@
 .pictures {
 	display:flex;
 	flex-direction: row;
-	
-
 	text-align: center;
 	justify-content: center;
 }
@@ -10,11 +8,7 @@
 	.pictures{
 	flex-wrap: wrap;
 	}
-}
-.picture__conteiner{
-
-}
-   	
+}	
 .pictures__picture {
 	width: 129px;
 	height: auto;
