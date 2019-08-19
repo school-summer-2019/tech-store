@@ -1,12 +1,18 @@
 .pictures {
 	display:flex;
 	flex-direction: row;
+	
+
 	text-align: center;
 	justify-content: center;
 }
-
+@media (min-width: 320px) and (max-width: 480px) {
+	.pictures{
+	flex-wrap: wrap;
+	}
+}
 .picture__conteiner{
-	margin-right: 5%;
+
 }
    	
 .pictures__picture {
