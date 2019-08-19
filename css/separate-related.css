@@ -84,10 +84,11 @@
 
 .separate-dashboards {
     background-color: #6674bf;
+    color: white;
     background-size: 200%;
     width: 100%;
-    padding-bottom: 4.8em;
-     padding-top: 2.500em;
+    padding-bottom: 2.8em;
+    padding-top: 0em;
 }
 
 .related {
