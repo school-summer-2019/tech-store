@@ -8,26 +8,22 @@
 .content-block__title {
     font-weight: bold;
     font-size: 1.125em;
-    line-height: 20px;
 }
 
 .content-block__title-result {
     font-weight: bold;
     font-size: 2.5em;
-    line-height: 20px;
 }
 
 .content-block__content-result {
     font-weight: bold;
     font-size: 1.625em;
-    line-height: 32px;
 }
 
 .content-block__title-related {
     position: relative;
     font-weight: bold;
     font-size: 2.5em;
-    line-height: 20px;
 }
 
 .related__images-container {
