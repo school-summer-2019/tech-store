@@ -2,7 +2,6 @@
     background: transparent url('../img/header banner.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     width: 100%;
-    height: auto;
     display: block;
 }
 
@@ -78,6 +77,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .header {
         font-size: 12px;
+        height: auto;
     }
     .header-bottom__text {
         font-size: 12px;
@@ -93,6 +93,7 @@
 @media (min-width: 481px) {
     .header {
         font-size: 16px;
+        height: 568px;
     }
     .header-bottom__text {
         font-size: 24px;
