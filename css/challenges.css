@@ -4,11 +4,11 @@
 	text-align: center;
 	justify-content: center;
 }
-
-.picture__conteiner{
-	margin-right: 5%;
-}
-   	
+@media (min-width: 320px) and (max-width: 480px) {
+	.pictures{
+	flex-wrap: wrap;
+	}
+}	
 .pictures__picture {
 	width: 129px;
 	height: auto;
