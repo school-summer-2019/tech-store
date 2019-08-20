@@ -84,15 +84,18 @@
     background-color: #6674bf;
     background-size: 200%;
     width: 100%;
+    color: white;
+    padding-bottom: 2.8em;
+    padding-top: 0em;    
 }
 
 .related {
     flex-direction: row;
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (min-width: 320px) and (max-width: 480px) {
   .related__text-decoration-bot,
   .related__text-notebook-bot {
-    display: none;
+   display: none;
   }
 }
