@@ -5,7 +5,7 @@
 .contact__title {
     font-size: 70px;
     display: flex;
-    margin-top: 91px;
+    padding-top: 91px;
     margin-bottom: 29px;
     justify-content: center;
 }
@@ -39,6 +39,3 @@
     }
 }
 
-/* * {
-    border: 1px solid red;
-} */
