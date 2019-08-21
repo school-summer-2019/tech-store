@@ -1,196 +1,32 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Super Tech Store</title>
-  <meta name="description" content="Tech Store">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/laptop.css">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/separate-related.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/contact-form.css">
-  <link rel="stylesheet" href="css/challenges.css">
-
-  <link rel="stylesheet" href="css/implementing-project.css">
-
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-    html {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
-
-  <meta name="theme-color" content="#fafafa">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145609483-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-145609483-1');
-  </script>
-</head>
-<body>
-
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <header class="header">
-    <div class="header-container">
-      <div class="header-top">
-        <div class="header-left">
-          <div class="header-left__logo">LOGO</div>
-          <div class="header-left__links">
-            <ul class="header-left__links-list">
-              <a href="#" class="header__button header__button--active"><li>services</li></a>
-              <a href="#" class="header__button"><li>marketplace</li></a>
-              <a href="#" class="header__button"><li>cases</li></a>
-              <a href="#" class="header__button"><li>more</li></a>
-              <a href="#" class="header__button"><li>&#8744;</li></a>
-            </ul>
-          </div>
+<div class="laptop">
+    <div class="laptop__container">
+        <img src="img/laptop/laptop_screen.png" class="laptop__screen">
+        <img src="img/laptop/laptop_mask.png" class="laptop__mask">
+        <div class="laptop__buttons">
+            <div class="laptop__button"><strong>Home page</strong></div>
+            <div class="laptop__spase"></div>
+            <div class="laptop__button color__grey">Book a repair</div>
+            <div class="laptop__spase"></div>
+            <div class="laptop__button color__grey">Store locator</div>
         </div>
-        <div class="header-right">
-          <div class="header-right__login">
-            <a href="#" class="header__button header__button--active">login</a>
-          </div>
-          <div class="header-right__quote">get a free quote</div>
+        <div class="laptop__text">
+            <div class="text__left">
+                Mobile Bitz is a UK-based company providing mobile repairment service to customers through a network of 70+ branches and franchises.
+                Their online shop offers a pain-free seamless journey for a user to get a service or order phone accessories with just a few clicks.
+                Once you found yourself on the website, you follow a short path from seeking for a service you need to its ordering.
+                All of that came true thanks to the wise logic behind operations within the website. The online shop gathered technicians under a common platform.
+                Repairers get a handy dashboard to tackle their business issues and consumers enjoy a unique experience being able to book the repair,
+                find the closest shop in a click on the map or putting a postal code and even call a technician to their homes right from the website.
+            </div>
+            <div class="text__right">
+                <div class="text__line">Industry: Cell Phone Repair</div>
+                <div class="text__line">Services:</div>
+                <div class="text__line">— Back and front-end development</div>
+                <div class="text__line">— Hosting</div>
+                <div class="text__line">— Upgrade</div> 
+            </div>
         </div>
-      </div>
-      <div class="header-bottom">
-        <p class="header-bottom__text">websiteaddress.com</p>
-        <p class="header-bottom__text header-bottom__text--small">Custom Development for the</p>
-        <p class="header-bottom__text header-bottom__text--big">Some store</p>
-      </div>
     </div>
-  </header>
- 
-  <p class="content-block content-block__header">Challenge</p>
-
-  <div class="pictures">
-    <div class="picture__conteiner">
-      <img class="pictures__picture" src="img/monitor.svg" alt="">
-      <br>Implement an easy <br>find-and-buy functionality for users
-    </div>
-    <div class="picture__conteiner">
-      <img class="pictures__picture" src="img/desktop.svg" alt="">
-      <br>Develop a partners’ <br>dashboard
-    </div>
-    <div class="picture__conteiner">
-
-      <img class="pictures__picture" src="img/provide.svg" alt="">
-      <br>Provide hosting <br>and upgrade
-    </div>
-  </div>
-  
-  <div class=implementing-container>
-    <p class="content-block content-block__header">
-      Implementing the Project
-    </p>
-    <img class="background-image" src="img/implementing-project/background.svg" />
-    <p class="content-block content-block__content">
-      A nice feature proposed by the website Product Manager was a ‘Book a Repair’ button. The idea behind this element was to provide a visitor with a simple tool to guide through the purchase funnel. We developed, designed and integrated Book a Repair placed
-      on the homepage next to the Company logo and the further back- and front-end functionality triggered by that key. The button initiates the following steps:
-    </p>
-    <p class="content-block content-block__content">
-      1. Select Repair: you select the repair type for a chosen device and its make.
-    </p>
-    <img class="content-block content-block__image" src="img/implementing-project/select-repair.png" />
-    <p class="content-block content-block__content">
-      2. Select Service: you specify what the service exactly is, data restoring, phone configuration or something else.
-    </p>
-    <p class="content-block content-block__content">
-      2.1. Visit Us in Store: a personal visit to the store. After enabling this widget you proceed to Store locator. A user can see the stores on the map and all the details after hovering on a selected branch. We embedded a functionality allowing the user
-      to find a branch by entering a postcode.
-    </p>
-    <img class="content-block content-block__image" src="img/implementing-project/visit-store.png" />
-    <p class="content-block content-block__content">
-      2.2. Post Your Device with the Self-Post and Collection options to send the device for repair via post or get it collected by courier.
-    </p>
-    <img class="content-block content-block__image" src="img/implementing-project/post-device.png" />
-    <p class="content-block content-block__content">
-      2.3. Call-in Technician: call a specialist to tackle the issue at the customer place.
-    </p>
-    <img class="content-block content-block__image" src="img/implementing-project/call-in-tech.png" />
-    <p class="content-block content-block__content">
-      3. Confirm appointment. We elaborated all the internal filling and logic including the icons’ design and coded every step from scratch.
-    </p>
-  </div>
-  <div class="separate-related-main">
-    <div class="separate-dashboards">
-      <p class="content-block content-block__title">Separate Dashboards for Partners and Branches</p>
-      <p class="content-block content-block__content">Although the website is implemented on a single-seller CS-Cart version, the requested functionality included specific dashboards for partners of the Mobile Bitz brand and their stores (aka branches) to tackle payment issues, track performance (sales
-        reports with statistics) and orders. The client may decide to pay directly to the owner or to pay to a local branch. If the owner gets the payment he owes that amount to the branch. If the branch takes the money, he shares the commission with
-        the owner. We designed and implemented the dashboards for partners and branches to manage these payment issues.<br>In addition, we expanded the dashboards with performance tracking like sales reports, order tracking to see jobs to be done and
-        the ability to mention a landing page for repairers. Branch landing pages work better for search engine ranking and attract more traffic to the website. This is good for SEO. As for usability and brand awareness, a separate branch portfolio with
-        photos and extra information makes it easier for a customer to remember the store and find its brick-and-mortar location.</p>
-    </div>
-
-    <p class="content-block content-block__title">Upgrading CS-Cart</p>
-    <p class="content-block content-block__content">Although the website is implemented on a single-seller CS-Cart version, the requested functionality included specific dashboards for partners of the Mobile Bitz brand and their stores (aka branches) to tackle payment issues, track performance (sales
-      reports with statistics) and orders. The client may decide to pay directly to the owner or to pay to a local branch. If the owner gets the payment he owes that amount to the branch. If the branch takes the money, he shares the commission with the
-      owner. We designed and implemented the dashboards for partners and branches to manage these payment issues.<br>In addition, we expanded the dashboards with performance tracking like sales reports, order tracking to see jobs to be done and the ability
-      to mention a landing page for repairers. Branch landing pages work better for search engine ranking and attract more traffic to the website. This is good for SEO. As for usability and brand awareness, a separate branch portfolio with photos and
-      extra information makes it easier for a customer to remember the store and find its brick-and-mortar location.</p>
-
-    <p class="content-block content-block__title">AWS Hosting</p>
-    <p class="content-block content-block__content">We provided the client with our AWS cloud hosting service to ensure the website even faster and safer operation monitored by our DevOps engineers day and night.</p>
-
-    <p class="content-block content-block__title-result">Results</p>
-    <p class="content-block content-block__content-result">Gorgeous website running fast and easy; customers happy with awesome user-friendly and intuitive interface; a featured dashboard for partners with invoicing functionality, sales’ and tasks’ tracking features.</p>
-
-    <div class="related">
-      <p class="content-block content-block__title-related">Related</p>
-      <div class="related__images-container">
-        <img class="related__image" src="img/notebook.png" />
-        <img class="related__image" src="img/decoration.png" />
-        <span class="related__text-notebook-top">Navkusicvet.net</span>
-        <span class="related__text-decoration-top">Jewbilation</span>
-        <span class="related__text-notebook-bot">A marketplace for handmade</span>
-        <span class="related__text-decoration-bot">Two-in-one for the </br>Jewish community</span>
-      </div>
-    </div>
-  </div>
-  <div class="contact__form">
-    <p class="contact__title"><strong>Want to work with us?</strong></p>
-    <div class="button__container">
-      <a href="#" class="contact__button"><strong>Get a Free Quote</strong></a>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="footer-left">
-      <img class="footer-left__facebook" src="img/facebook.svg" />
-      <img class="footer-left__twitter" src="img/twitter.svg" />
-    </div>
-    <div class="break"></div>
-    <div class="footer-right">
-      <div class="footer-right-email">
-        <img class="footer-right-email__icon" src="img/email.svg" />
-        <span>Email support</br>test@example.com</span>
-      </div>
-      <div class="footer-right-skype">
-        <img class="footer-right-skype__icon" src="img/skype.svg" />
-        <span>Skype support</br>Iamsupport</span>
-      </div>
-    </div>
-
-  </footer>
-</body>
-</html>
+</div>
