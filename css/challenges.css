@@ -1,15 +1,17 @@
 .pictures {
-	display:flex;
-	flex-direction: row;
-	text-align: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
-	.pictures{
-	flex-wrap: wrap;
-	}
-}	
+  .pictures {
+    flex-wrap: wrap;
+  }
+}
+
 .pictures__picture {
-	width: 129px;
-	height: auto;
+  width: 129px;
+  height: auto;
 }

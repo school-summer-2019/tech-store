@@ -1,76 +1,78 @@
 /* Главный flex-box футера. TODO: нормальный border */
 .footer {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    border-top: 4px solid black;
-    margin-top: 10px
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  border-top: 4px solid black;
+  margin-top: 10px;
+  overflow: hidden;
 }
 
 .footer > div {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 /* Перенос футера на новую строку при использовании телефона */
 @media (min-width: 320px) and (max-width: 480px) {
-    .break {
-        flex-basis: 100%;
-        width: 0px;
-        height: 0px;
-        overflow: hidden;
-    }
+  .break {
+    flex-basis: 100%;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
 }
 
 /* Левая часть футера (facebook, twitter) */
 .footer-left {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: auto;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
 }
 
 .footer-left__facebook {
-    flex: 0 0 auto;
-    width: 50px;
-    height: auto;
-    margin-left: 50px;
+  flex: 0 0 auto;
+  width: 50px;
+  height: auto;
+  margin-left: 50px;
 }
 
 .footer-left__twitter {
-    flex: 0 1 auto;
-    width: 50px;
-    height: auto;
-    margin-left: 25px;
+  flex: 0 1 auto;
+  width: 50px;
+  height: auto;
+  margin-left: 25px;
 }
+
 /* Правая часть футера (email, skype) */
 .footer-right {
-    flex: 0 1 auto;
-    display: flex;
-    width: auto;
+  flex: 0 1 auto;
+  display: flex;
+  width: auto;
 }
 
 .footer-right-email {
-    display: flex;
-    width: auto;
-    margin-right: 30px;
+  display: flex;
+  width: auto;
+  margin-right: 30px;
 }
 
 .footer-right-email__icon {
-    flex: 0 0 auto;
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
+  flex: 0 0 auto;
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .footer-right-skype {
-    display: flex;
-    width: auto;
-    margin-right: 30px;
+  display: flex;
+  width: auto;
+  margin-right: 30px;
 }
 
 .footer-right-skype__icon {
-    flex: 0 1 auto;
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
+  flex: 0 1 auto;
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
 }
