@@ -77,7 +77,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .header {
-        font-size: 1.750em;
+        font-size: 0.750em;
         height: auto;
     }
     .header-bottom__text {
