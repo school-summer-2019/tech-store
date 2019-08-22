@@ -1,7 +1,7 @@
 .laptop__mask {
     width: 70%;
     position: absolute;
-    transform: translateY(-92.5%)
+    transform: translateY(-92.5%);
   }
 
   .laptop {
@@ -9,7 +9,7 @@
       font-size: 28px;
       padding-left: 15%;
       padding-right: 15%;
-      padding-bottom: 100px
+      padding-bottom: 100px;
   }
 
   .color__grey {
@@ -72,6 +72,7 @@
           padding-left: 0%;
           padding-right: 0%;
           padding-bottom: 10px;
+          overflow: hidden;
       }
 
       .laptop__text {
