@@ -81,6 +81,9 @@
   background-color: #6674bf;
   background-size: 200%;
   width: 100%;
+  color: white;
+  padding-bottom: 2.8em;
+  padding-top: 0;
 }
 
 .related {
