@@ -10,8 +10,10 @@
     flex-wrap: wrap;
   }
 }
-
-.pictures__picture {
+.pictures-container {
+  width: 250px;
+}
+.pictures-container__picture {
   width: 129px;
   height: auto;
 }
