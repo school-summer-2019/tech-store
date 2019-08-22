@@ -1,41 +1,40 @@
 .contact__form {
-    display: block;
+  display: block;
 }
 
 .contact__title {
-    font-size: 70px;
-    display: flex;
-    padding-top: 91px;
-    margin-bottom: 29px;
-    justify-content: center;
+  font-size: 70px;
+  display: flex;
+  padding-top: 91px;
+  padding-bottom: 29px;
+  justify-content: center;
 }
 
 .contact__button {
-    background-color: black;
-    width: 300px;
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    padding: 19px;
-    display: flex;
-    justify-content: center;
+  background-color: black;
+  width: 300px;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 19px;
+  display: flex;
+  justify-content: center;
 }
 
 .button__container {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    .contact__title {
-        font-size: 30px;
-    }
+  .contact__title {
+    font-size: 30px;
+  }
 
-    .contact__button {
-        font-size: 14px;
-        padding: 10px;
-        width: 150px;
-    }
+  .contact__button {
+    font-size: 14px;
+    padding: 10px;
+    width: 150px;
+  }
 }
-

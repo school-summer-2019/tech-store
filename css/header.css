@@ -1,5 +1,5 @@
 .header {
-    background: transparent url('../img/header banner.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../img/header/banner.png') 0 0 no-repeat padding-box;
     opacity: 1;
     width: 100%;
     display: block;
@@ -9,7 +9,6 @@
     padding-right: 5px;
     padding-left: 5px;
     color: gray;
-    list-style-type: none;
     text-decoration: none;
 }
 .header__button--active {
@@ -42,6 +41,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.header-left__link {
+    list-style-type: none;
+}
 
 .header-right {
     justify-content: center;
@@ -56,7 +58,6 @@
 
 .header-bottom {
     display: block;
-    align-items: left;
     justify-content: space-around;
 }
 .header-bottom__text {
@@ -76,32 +77,32 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .header {
-        font-size: 12px;
+        font-size: 0.750em;
         height: auto;
     }
     .header-bottom__text {
-        font-size: 12px;
+        font-size: 0.750em;
     }
     .header-bottom__text--small {
-        font-size: 24px;
+        font-size: 1.500em;
     }
     .header-bottom__text--big {
-        flex-size: 50px;
+        font-size: 3.125em;
     }
-}   
+}
 
 @media (min-width: 481px) {
     .header {
-        font-size: 16px;
+        font-size: 1em;
         height: 568px;
     }
     .header-bottom__text {
-        font-size: 24px;
+        font-size: 1.500em;
     }
     .header-bottom__text--small {
-        font-size: 48px;
+        font-size: 3.000em;
     }
     .header-bottom__text--big {
-        flex-size: 100px;
+        font-size: 6.250em;
     }
 }
