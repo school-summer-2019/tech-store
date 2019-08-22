@@ -77,17 +77,17 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .header {
-        font-size: 0.750em;
+        font-size: 1.750em;
         height: auto;
     }
     .header-bottom__text {
-        font-size: 0.750em;
+        font-size: 1.200em;
     }
     .header-bottom__text--small {
-        font-size: 1.500em;
+        font-size: 1.550em;
     }
     .header-bottom__text--big {
-        font-size: 3.125em;
+        font-size: 3.500em;
     }
 }
 
